@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <style>
+        body{
+background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");        }
+            
+        .feedback{
+            width: 800px;
+            height: 700px;
+            border: 7px solid #1b1a1a;
+            margin: 30px auto;
+            text-align: center;
+            background-image:linear-gradient(rgba(0,0,0,0.5),rgb(227, 229, 154))
+        }
+        h1{
+            font-size: 70px;
+            color: white;
+            text-align: center;
+            border-bottom: 2px solid white;
+        }
+        table{
+            font-size: 30px;
+            margin: auto;
+            background-color: blanchedalmond;
+        }
+        p{
+            font-size: 30px;
+        }
+        label{
+            font-size: 30px;
+        }
+        input{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="feedback">
+        <p>Feedback</p>
+    <table>
+        <form action="/action.php">
+            <h1>Feedback Form</h1>
+            <tr>
+                <label>
+                    How was our microproject
+                </label>
+                <br>
+                <input type="radio" name="rate" value="good"><h2>Good</h2> 
+                <label for=""></label>
+                <input type="radio" name="rate" value="average"><h2>Average</h2>
+                <label for=""></label>
+                <input type="radio" name="rate" value="bad"><h2>Bad</h2>
+            </tr>
+            <tr>
+            <td>
+                <label>
+                    Fullname
+                </label>
+                <br>
+                <input type="text" name="Fullname">
+            </td>
+            <td>
+                <label>
+                    Email
+                </label>
+                <br>
+                <input type="email" name="email">
+            </td>
+        </tr>
+        </form>
+    </table>
+</div>
+<button>Submit</button>
+</body>
+</html>
